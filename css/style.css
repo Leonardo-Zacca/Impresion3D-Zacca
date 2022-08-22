@@ -5,4 +5,14 @@
 }
 h1 {
     font-family: 'Courier New', Courier, monospace;
+    color: rgb(29, 185, 190);
+    font-size: 45px;
+}
+
+h1:hover{
+    color: rgb(18, 101, 104);
+    font-weight: bold;
+    text-decoration: underline;
+    transition: .3s;
+    transform: skew(-20deg);
 }
